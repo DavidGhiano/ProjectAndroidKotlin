@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "678156548691",
+    "firebase_url": "https://neolab-tpfinal-default-rtdb.firebaseio.com",
+    "project_id": "neolab-tpfinal",
+    "storage_bucket": "neolab-tpfinal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:678156548691:android:1ca5413bf0d817849424a6",
+        "android_client_info": {
+          "package_name": "edu.neo.tpfinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "678156548691-7ju0g4hicfhr0ssbqq8hrl8qgbhg653a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.neo.tpfinal",
+            "certificate_hash": "cee1a6072fbeab3d3f5b3754d19349ce442cc66d"
+          }
+        },
+        {
+          "client_id": "678156548691-e83vf5vbe9s41og9iiesmjq9ubufg43o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVTJJViqr494ROKKfiBrwAD48-jFkevBc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "678156548691-e83vf5vbe9s41og9iiesmjq9ubufg43o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="edu.neo.tpfinal.view.fragment.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_nav_home_to_nav_agregar"
+            app:destination="@id/nav_agregar" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_agregar"
+        android:name="edu.neo.tpfinal.view.fragment.AgregarFragment"
+        android:label="@string/menu_agregar"
+        tools:layout="@layout/fragment_agregar" >
+        <action
+            android:id="@+id/action_nav_agregar_to_nav_bebidas"
+            app:destination="@id/nav_bebidas" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_bebidas"
+        android:name="edu.neo.tpfinal.view.fragment.BebidaFragment"
+        android:label="@string/menu_bebidas"
+        tools:layout="@layout/fragment_bebida" >
+        <action
+            android:id="@+id/action_nav_bebidas_to_nav_home"
+            app:destination="@id/nav_home" />
+    </fragment>
+</navigation>
